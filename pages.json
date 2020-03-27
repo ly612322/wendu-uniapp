@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/guide/index",
+			"style": {
+				"navigationBarTitleText": "启动页",
+				// "app-plus": {
+				// 	"titleNView": false
+				// },
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/guide/list",
+			"style": {
+				"navigationBarTitleText": "启动介绍页",
+				// "app-plus": {
+				// 	"titleNView": false,
+				// 	"bounce": "none"
+				// },
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "文都管联研究院",
+				"navigationBarBackgroundColor": "#3B5998"
+			}
+		}, {
+			"path": "pages/discover/discover",
+			"style": {
+				"navigationBarTitleText": "发现"
+			}
+		}, {
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "学习"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3B5998",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#b5b5b5",
+		"selectedColor": "#28A930",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/basics.png",
+				"selectedIconPath": "static/tabbar/basics_cur.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/course/course",
+				"iconPath": "static/tabbar/component.png",
+				"selectedIconPath": "static/tabbar/component_cur.png",
+				"text": "学习"
+			}, {
+				"pagePath": "pages/discover/discover",
+				"iconPath": "static/tabbar/component.png",
+				"selectedIconPath": "static/tabbar/component_cur.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/about.png",
+				"selectedIconPath": "static/tabbar/about_cur.png",
+				"text": "我的"
+			}
+		]
+	}
+}

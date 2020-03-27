@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/guide/index",
+    "pages/guide/list",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/discover/discover",
+    "pages/course/course",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#3B5998",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#b5b5b5",
+    "selectedColor": "#28A930",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/basics.png",
+        "selectedIconPath": "static/tabbar/basics_cur.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "static/tabbar/component.png",
+        "selectedIconPath": "static/tabbar/component_cur.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "static/tabbar/component.png",
+        "selectedIconPath": "static/tabbar/component_cur.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/about.png",
+        "selectedIconPath": "static/tabbar/about_cur.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

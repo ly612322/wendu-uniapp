@@ -1,0 +1,127 @@
+.content{
+	background-image: url(../../static/image/Background_9.png);
+	background-repeat: no-repeat;
+	background-size: 100% 650upx;
+	color: white;
+}
+.content .uni-title{
+	color: #6f6f6f;
+	font-size: 20px;
+	text-align: center;
+	margin: 30upx;
+	border-bottom: 1px solid #c9c9c9;
+}
+.content .uni-title:nth-child(9){
+	color: #EE5B5B;
+	border-bottom: 1px solid #EE5B5B;
+}
+.content .login{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+.top{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.top .top-title{
+	font-size: 20px;
+	margin-top: 60upx;
+	color:white
+}
+.top .top-menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 490upx;
+	padding: 0 100upx;
+}
+.main{
+	width: 100;
+	height: 400upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.main .main-input{
+	width: 100%;
+	margin-top: 60upx;
+	border-bottom: 1px solid #cfcfcf;
+	padding: 0 60upx;
+}
+.main-input .input{
+	color: #333333;
+	width: 500upx;
+	height: 80upx;
+	font-size: 22px;
+	margin-top: 22upx;
+}
+.main-opt{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 60upx;
+}
+.main-opt .forgot{
+	color: #ababab;
+}
+
+.login .enter{
+	margin-top:65upx;
+	width: 560upx;
+	height: 110upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #454553;
+	border-radius: 25px;
+	color: #F5F5F5;
+}
+.enter .enter-title{
+	font-size: 15px;
+	margin-left: 248upx;
+}
+.enter .enter-icon{
+	font-size: 20px;
+	margin-right: 30upx;
+}
+.login .login-fac{
+	margin-top:65upx;
+	width: 560upx;
+	height: 110upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3B5998;
+	border-radius: 25px;
+	color: #F5F5F5;
+}
+.login-fac .login-fac-title{
+	font-size: 15px;
+	margin-left: 220upx;
+}
+.login-fac .login-fac-icon{
+	font-size: 20px;
+	margin-right: 30upx;
+}
+
+.content .Btn{
+	width: 80upx;
+	height: 80upx;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.2);
+	text-align: center;
+	font-size: 36px;
+	position: absolute;
+	bottom: 60upx;
+	right: 30upx;
+}
